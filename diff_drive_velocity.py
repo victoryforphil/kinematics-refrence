@@ -1,4 +1,4 @@
-#  Alex Carter (VictoryForPhil, VictoryForPhil@gmai.com) 3/16/2019
+#  Alex Carter (VictoryForPhil, VictoryForPhil@gmail.com) 3/16/2019
 #  --------------------------------------------------------------
 #  This script simulates a 2 wheeled (will work with x wheels) 
 #  differntial drive robot (tank drive for FTC folk), in which
@@ -68,18 +68,12 @@ while tick < 500:
   x  = res[0][0]
   y  = res[1][0]
   ang = res[2][0]
-  #print(ang)
-  #ang = math.degrees(ang)
-  #print("X: " + str(x))
-  #print("Y:" + str(y))
-  #print("Ang:" + str(ang))
+
   
   x_state.append(x)
   y_state.append(y)
   
-  #print("xDt = " + str(xDt))
-  #print("yDt = " + str(yDt))
-  
   tick+=1
   
 plt.scatter(x_state,y_state)
+plt.show()
