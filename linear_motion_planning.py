@@ -28,7 +28,7 @@ time_step = 0.1
 step = 0
 
 while not done:
-    pos_cur = pos_cur + (vel_cur * time_step) + 1/(2*acc_cur*time_step *2)
+    pos_cur = 
 
     
     step +=1
